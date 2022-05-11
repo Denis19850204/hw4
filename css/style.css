@@ -136,20 +136,6 @@ body {
   margin-left: auto;
 }
 
-.contact-list-link::before{
-  display: inline-block;
-  content: "";
-  width: 16px;
-  height: 12px;
-  outline: 1px solid tomato;
-  background-image: url(../img/mail.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-right: 10px;
-  
-}
-
 .contact-list-link {
   display: block;
   color: var(--main-text-color);
@@ -162,6 +148,19 @@ body {
   padding-top: 32px;
   padding-bottom: 32px;
   
+  
+}
+
+
+
+.mail-icon{  
+  
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  
+  
+ 
 }
 
 .contact-item:not(:last-child) {
