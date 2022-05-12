@@ -157,6 +157,8 @@ body {
   width: 16px;
   height: 12px;
   margin-right: 10px;
+  fill: currentColor;
+  
   
 }
 
@@ -164,11 +166,11 @@ body {
   width: 10px;
   height: 16px;
   margin-right: 10px;
+  fill: currentColor;
+  
 }
 
-.contact-item:hover{
-fill: var(--accent-color);
-}
+
 
 .contact-item:not(:last-child) {
   margin-right: 50px;
@@ -256,15 +258,18 @@ fill: var(--accent-color);
   width: 270px;
 }
 
-.icon-antenna{
- 
-  width: 270px; 
+.icon-benefits{
+  display: flex;
   height: 120px;
+  align-items: center;
   
-  background-color: #F5F4FA;
+  background-color: var(--bkg-color);
+  background-size: cover;
   
-  
+
 }
+
+
 
 .item:not(:last-child) {
   margin-right: 30px;
