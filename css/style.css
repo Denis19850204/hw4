@@ -136,8 +136,10 @@ body {
   margin-left: auto;
 }
 
+
+
 .contact-list-link {
-  display: block;
+  display: flex;
   color: var(--main-text-color);
   text-decoration: none;
   font-family: 'Roboto';
@@ -147,20 +149,25 @@ body {
   letter-spacing: 0.02em;
   padding-top: 32px;
   padding-bottom: 32px;
-  
+  align-items: center;
   
 }
 
-
-
-.mail-icon{  
-  
+.mail-icon{    
   width: 16px;
   height: 12px;
   margin-right: 10px;
   
-  
- 
+}
+
+.phone-icon{
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.contact-item:hover{
+fill: var(--accent-color);
 }
 
 .contact-item:not(:last-child) {
@@ -247,6 +254,16 @@ body {
 .benefits-item {
   display: block;
   width: 270px;
+}
+
+.icon-antenna{
+ 
+  width: 270px; 
+  height: 120px;
+  
+  background-color: #F5F4FA;
+  
+  
 }
 
 .item:not(:last-child) {
