@@ -153,22 +153,12 @@ body {
   
 }
 
-.mail-icon{    
-  width: 16px;
-  height: 12px;
+.contact-icon{     
   margin-right: 10px;
-  fill: currentColor;
-  
-  
+  fill: currentColor;  
 }
 
-.phone-icon{
-  width: 10px;
-  height: 16px;
-  margin-right: 10px;
-  fill: currentColor;
-  
-}
+
 
 
 
@@ -261,13 +251,14 @@ body {
 .icon-benefits{
   display: flex;
   height: 120px;
-  align-items: center;
-  
+  align-items: center;  
+  justify-content: center;
   background-color: var(--bkg-color);
-  background-size: cover;
-  
-
+  background-size: cover; 
+  margin-bottom: 30px;
 }
+
+
 
 
 
@@ -359,6 +350,47 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-align: center;
+  margin-bottom: 16px;
+}
+
+.social{
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.icon-social{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  
+   
+  
+   
+  
+}
+
+.icon-social:not(:last-child){
+  margin-right: 10px;
+}
+
+
+
+.icon-social:hover,
+.icon-social:focus{
+  background-color: var(--accent-color);
+}
+
+.icon-picture{
+  
+  fill:#AFB1B8 ;
+}
+
+.icon-picture:hover{ 
+  fill: var(--secondary-color);
 }
 
 /* ------------------------------------ */
