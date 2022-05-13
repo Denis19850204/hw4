@@ -365,11 +365,7 @@ body {
   justify-content: center;
   width: 44px;
   height: 44px;
-  border-radius: 50px;
-  
-   
-  
-   
+  border-radius: 50px;  
   
 }
 
@@ -379,19 +375,13 @@ body {
 
 
 
-.icon-social:hover,
-.icon-social:focus{
-  background-color: var(--accent-color);
-}
 
 .icon-picture{
+  
   
   fill:#AFB1B8 ;
 }
 
-.icon-picture:hover{ 
-  fill: var(--secondary-color);
-}
 
 /* ------------------------------------ */
 
